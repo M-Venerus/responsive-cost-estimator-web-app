@@ -272,3 +272,29 @@ h1 {
 .card .save p {
   margin: 0;
 }
+
+@media only screen and (max-width: 795px) {
+  .card {
+    width: 100%;
+  }
+  .card-wrapper {
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@media only screen and (max-width: 611px) {
+  body {
+    padding: 8px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+  .sessions-card {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 0 0 12px 0;
+  }
+}
